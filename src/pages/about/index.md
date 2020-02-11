@@ -5,14 +5,14 @@ mainImage:
   image: /img/teemu-paananen-376238-unsplash.jpg
   imageAlt: Wakanda JavaScript developer presenting at a meetup.
 gallery:
+  - image: /img/screenshot-2019-08-11-at-20.24.54.png
+    imageAlt: test
   - image: /img/neonbrand-509131-unsplash.jpg
     imageAlt: Wakanda JavaScript developer presenting at a meetup.
   - image: /img/jakob-dalbjorn-730178-unsplash.jpg
     imageAlt: Wakanda JavaScript developer presenting at a meetup.
   - image: /img/annie-spratt-608001-unsplash.jpg
     imageAlt: Wakanda developers working together at a table.
-  - image: /img/screenshot-2019-08-11-at-20.24.54.png
-    imageAlt: test
 developerGroups: |-
   ## Other Wakanda Developer Groups
 
