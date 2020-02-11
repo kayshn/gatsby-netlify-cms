@@ -8,6 +8,27 @@ public_folder: /img
 display_url: https://gatsby-netlify-cms-example.netlify.com/
 
 collections:
+  - name: "cars"
+    label: "cars"
+    description: "cars data"
+    folder: "src/pages/cars"
+    create: true
+    fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "car" }
+      - { label: "Make", name: "make", widget: "string" }
+      - { label: "Model", name: "model", widget: "string" }
+      - { label: "Price", name: "price", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - {
+          label: "Image Gallery",
+          name: "gallery",
+          widget: "list",
+          fields:
+            [
+              { label: "Image", name: "image", widget: "image" },
+              { label: "Image Description", name: "imageAlt", widget: "string" },
+            ],
+        }
   - name: "meetups"
     label: "Meetups"
     description: "Meetup dates, location, and presenter information."
