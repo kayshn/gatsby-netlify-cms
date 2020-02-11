@@ -3,11 +3,13 @@ import CMS from "netlify-cms";
 import AboutPagePreview from "./preview-templates/AboutPagePreview";
 import HomePagePreview from "./preview-templates/HomePagePreview";
 import MeetupPreview from "./preview-templates/MeetupPreview";
+import CarPreview from "./preview-templates/CarPreview";
 import FooterPreview from "./preview-templates/FooterPreview";
 import NavbarPreview from "./preview-templates/NavbarPreview";
 import PastMeetupsPagePreview from "./preview-templates/PastMeetupsPagePreview";
 
 CMS.registerPreviewTemplate("meetups", MeetupPreview);
+CMS.registerPreviewTemplate("cars", CarPreview);
 CMS.registerPreviewTemplate("footer", FooterPreview);
 CMS.registerPreviewTemplate("navbar", NavbarPreview);
 CMS.registerPreviewTemplate("about", AboutPagePreview);
