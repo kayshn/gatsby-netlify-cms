@@ -11,6 +11,8 @@ gallery:
     imageAlt: Wakanda JavaScript developer presenting at a meetup.
   - image: /img/annie-spratt-608001-unsplash.jpg
     imageAlt: Wakanda developers working together at a table.
+  - image: /img/screenshot-2019-08-11-at-20.24.54.png
+    imageAlt: test
 developerGroups: |-
   ## Other Wakanda Developer Groups
 
